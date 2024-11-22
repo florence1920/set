@@ -160,10 +160,12 @@ body {
 header {
   display: flex;
   justify-content: center;
-  align-items: center;
   min-height: 40px;
   border-bottom: 1px solid #000;
   position: relative;
+}
+header .header__logo {
+  margin-top: 10px;
 }
 header .header__nav {
   display: flex;
@@ -184,16 +186,16 @@ header .header__nav .header__nav-btn--opened {
   display: none;
 }
 header .header__nav .header__nav-list {
-  display: flex;
+  display: none;
   margin-top: 30px;
 }
-header .header__nav .header__nav-list .header__nav-item > a {
+header .header__nav .header__nav-list .header__nav-link {
   margin-right: 10px;
   display: flex;
   align-items: center;
   font-size: 0.8rem;
   color: #9c9c9c;
 }
-header .header__nav .header__nav-list .header__nav-item--active > a {
+header .header__nav .header__nav-list .header__nav-link--active {
   color: #000;
 }/*# sourceMappingURL=main.css.map */

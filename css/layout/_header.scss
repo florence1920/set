@@ -3,11 +3,12 @@
 header {
   display: flex;
   justify-content: center;
-  align-items: center;
   min-height: 40px;
   border-bottom: 1px solid #000;
   position: relative;
-
+  .header__logo {
+    margin-top: 10px;
+  }
   .header__nav {
     display: flex;
     flex-direction: column;
@@ -29,10 +30,10 @@ header {
     }
 
     .header__nav-list {
-      display: flex;
+      display: none;
       margin-top: 30px;
 
-      .header__nav-item > a {
+      .header__nav-link {
         margin-right: 10px;
         display: flex;
         align-items: center;
@@ -40,7 +41,7 @@ header {
         color: $gray;
       }
 
-      .header__nav-item--active > a {
+      .header__nav-link--active {
         color: #000;
       }
     }

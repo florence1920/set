@@ -118,11 +118,11 @@ function shuffleArray(array) {
 }
 
 const categoryLimits = {
-  music: 2,
-  animation: 3,
-  book: 2,
-  drama: 3,
-  travel: 3,
+  music: 4,
+  animation: 4,
+  book: 3,
+  drama: 4,
+  travel: 4,
   etc: 2,
 };
 
